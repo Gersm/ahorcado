@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+html, body{
+	width: 100%;
+}
+body{
+	background: #333;
+	color: #fff;
+	font-family: "OCR-B 10 BT";
+}
+h1{
+	margin: 15px;
+}
+#pista{
+	letter-spacing: 10px;
+	font-size: 30px;
+}
+#gg{
+	height: 80px;
+}
+#letra{
+	width: 100px;
+	font-size: 25px;
+	height: 25px;
+}
+#boton{
+	width: 50px;
+	font-size: 15px;
+	height: 28px;
+}
+input{
+	vertical-align: middle;
+}
+table{
+	width: 100%
+}

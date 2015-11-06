@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="js/principal.js"></script>
+	<script type="text/javascript" src="js/estructura.js"></script>
+	<script type="text/javascript" src="js/datos.js"></script>
+	<script type="text/javascript" src="js/palabras.js"></script>
+	<title>AHORCADO</title>
+</head>
+<body>
+	<section>
+		<h1>AHORCADO</h1>
+		<article>
+			<table>
+				<tr>
+					<td>
+						<h3>CATEGORIA:</h3>
+						<label id="categoria" title="La palabra a adivinar"></label>
+					</td>
+					<td>
+						<input id="letra" title="Escribe una Letra..." type="text" autofocus required/>
+
+						<input id="boton" type="button" value="Enter"/>
+					</td>
+				</tr>
+				<tr id="gg">
+					<td colspan="2">
+						<label id="pista" title="La palabra a adivinar"></label>
+					</td>
+				</tr>
+			</table>
+		</article>
+
+		<article>
+			<canvas id="canvas"></canvas>
+		</article>
+	</section>
+	<script type="text/javascript">
+		inicio();
+	</script>
+</body>
+</html>
